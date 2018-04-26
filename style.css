@@ -1,112 +1,3 @@
-/* * {
-    font-family: "Open Sans";
-}
-
-ul {
-    list-style-type: none;
-    margin: 0; 
-    padding: 0;
-}
-
-p {
-    border-left: 5px solid #69696a;
-    padding-left:20px;
-}
-
-#navlist {
-    float: right;
-}
-
-.topnav {
-    overflow: hidden;
-    color: #69696a;
-}
-
-.topnav a {
-    float: right;
-    color: #69696a;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topnav a:hover {
-    background-color: #000;
-    color: white;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
-
-#logo {
-    width: 40%;
-    float: left;
-}
-.circles {
-    width: 50%;
-    position: absolute;
-    float: right;
-}
-.circle {
-    line-height: 200px;
-    border-radius: 50%;
-}
-
-.first {
-background-color: rgba(247, 136, 167, 0.6);
-width: 200px;
-height: 200px;
-position: absolute;
-left: 100%;
-}
-.second {
-background-color: rgba(207, 130, 213, 0.6);
-width: 120px;
-height: 120px;
-left: 120%;
-top: 50%;
-position: absolute;
-}
-.third {
-background-color: rgba(247, 193, 162, 0.7);
-width: 160px;
-height: 160px;
-position: absolute;
-left: 120%;
-top: 70px;
-}
-
-.scroll_down {
-background-color: #000;
-color: white;
-border-top-right-radius: 25px;
-border-bottom-right-radius: 25px;
-border-top-left-radius: 25px;
-border-bottom-left-radius: 25px;
-text-align: center;
-width: 7%;
-margin: 0 auto;
-margin-top: 100px;
-}
-#main_container{
-    width: 100%;
-    overflow: auto;
-}
-#left_float {
-    float:left;
-    width: 50%;
-}
-#float_right {
-    float:right;
-    width: 50%;
-}
-#clear_two {
-    clear: both;
-}
-*/
-
 * {
     font-family: 'Open Sans', sans-serif;
 
@@ -165,10 +56,11 @@ h5 {
     h5 {
         width: 100px;
     }
+    
         
 }
 
-@media only screen and (min-width: 992px) {
+    @media only screen and (min-width: 992px) {
     a {
         padding-left: 20px;
         padding-right: 20px;
@@ -185,9 +77,8 @@ h5 {
     }
     h5 {
         width: 50px;
-        padding-left: 60px;
-        text-align: center;
-        padding-right: 60px;
+        padding-left: 55px;
+        padding-right: 55px;
 
     }
     nav {
